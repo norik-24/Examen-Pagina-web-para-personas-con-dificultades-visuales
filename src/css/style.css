@@ -4,4 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: none;
-}
+    background-color: var(--color-2);
+    font-size: 30px;
+    font-family: "Roboto-Condensed-Bold";
+ }
+
+
+ body{
+    margin-top: 100px;
+    display: grid;
+    line-height: 20px;
+    place-content: center;
+    place-items: center;
+
+ }
+ button{
+    background-color: var(--color-1);
+    margin-top:50px;
+    width: 200px;
+    height: 100px;
+    border-radius: 32px;
+
+
+ }
