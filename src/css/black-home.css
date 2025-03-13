@@ -196,7 +196,7 @@ header{
 
 .div1 p{
     margin-top:35px;
-    padding-left: 50px;
+    padding-left: 20px;
     align-self: justify;
     font-size: 36px;
     font-family: "Roboto-Condensed-Regular";
@@ -204,7 +204,7 @@ header{
 
 .div2{
     margin-top:50px;
-    margin-left:25%;
+    margin-left:20%;
     display: grid;
     grid-template-columns: 120px 800px 160px;
     grid-template-rows: 1fr 1fr 1fr 1fr;
