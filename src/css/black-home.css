@@ -83,3 +83,93 @@ header{
     grid-row:2/3 ;
     align-self: right;
 }
+
+.inicio{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inicio1{
+    margin-left:14%;
+    display:grid;
+    grid-template-rows: 80% 15% 10%;
+}
+
+.inicio1 span{
+    font-size:56.4px;
+    font-family: "Roboto-Condensed-Regular";
+}
+
+.inicio1 p{ 
+    font-size:26px;
+    font-family: "Roboto-Condensed-Regular";
+}
+
+.inicio2{
+
+    margin-left:14%;
+    display:grid;
+    grid-template-rows: 80% auto auto auto;
+    grid-template-columns: 90% 10%;
+    margin-right: 10%;
+
+}
+
+.perro{
+    grid-column: 1/2;
+    grid-row:1/2 ;
+    align-self: center;
+}
+
+.carritocompra{    
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: center;
+    border:none;
+    box-shadow: 0;
+    width:257px;
+    height:54px;
+    margin-left:20%;
+    background-color: var(--color-1);
+    border-radius: 32px;
+}
+
+.carritocompra img{    
+
+    align-self: center;
+    background-color: transparent;
+}
+
+.carritocompra span{    
+
+    align-self: center;
+    background-color: transparent;
+    font-family: "Roboto-Condensed-Bold";
+    font-size: 40px;
+    color:var(--color-3)
+
+}
+.ig{
+    grid-column: 2/3;
+    grid-row:1/2 ;
+    align-self: center;
+    border:none;
+    box-shadow: 0;
+}
+
+.fb{
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    align-self: center;
+    border:none;
+    box-shadow: 0;
+}
+
+.kick{
+    grid-column:2/3 ;
+    grid-row: 3/4;
+    align-self: center;
+    border:none;
+    box-shadow: 0;
+}
